@@ -1,1 +1,522 @@
-{}
+{
+  "site": {
+    "name": "Frostrail Wiki",
+    "shortName": "Frostrail",
+    "tagline": "Guías de supervivencia, mejoras del tren y fabricación en un mundo helado",
+    "description": "Explora Frostrail con guías de supervivencia, mejoras del tren, consejos de fabricación, armas, estrategias contra enemigos, consejos para el co-op, información de la demo y novedades del lanzamiento.",
+    "legalNotice": "Wiki de fans independiente sobre Frostrail. Sin afiliación con FakeFish ni Shiro Unlimited."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "guide": "Guía",
+    "release": "Lanzamiento",
+    "platforms": "Plataformas",
+    "mechanics": "Mecánicas",
+    "modes": "Modos",
+    "community": "Comunidad"
+  },
+  "home": {
+    "meta": {
+      "title": "Frostrail Wiki - Guía de supervivencia, mejoras del tren y fabricación",
+      "description": "Guía de supervivencia de Frostrail sobre el calor, el tren Motor Edén, fabricación, armas, Revenants, tácticas cooperativas, detalles de la demo y novedades del acceso anticipado."
+    },
+    "hero": {
+      "eyebrow": "FPS de supervivencia en un mundo helado",
+      "title": "Frostrail Wiki",
+      "description": "Explora el páramo helado de Frostrail con guías de supervivencia, mejoras del tren, consejos de fabricación, armas, estrategias contra enemigos, consejos para el co-op, información de la demo y novedades del lanzamiento.",
+      "stats": [
+        "500K+ listas de deseos en Steam",
+        "Co-op para 4 jugadores",
+        "Demo disponible",
+        "Acceso anticipado Q4 2026"
+      ],
+      "primaryCta": "Añadir a deseados en Steam",
+      "secondaryCta": "Guía para principiantes",
+      "tertiaryCta": "Únete al Discord oficial",
+      "videoLabel": "Tráiler oficial de gameplay"
+    },
+    "updates": {
+      "title": "Últimas novedades de Frostrail",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu viaje por Frostrail",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Aprende el bucle central de Frostrail: aviva el Motor Edén, explora las salidas, refina chatarra y regresa antes de que el frío consuma tu combustible."
+        },
+        {
+          "number": "2",
+          "title": "Mejoras del tren",
+          "description": "Prioriza combustible, reparaciones, almacenamiento y defensas para que tu locomotora siga caliente y en marcha por el norte helado."
+        },
+        {
+          "number": "3",
+          "title": "Fundamentos de fabricación",
+          "description": "Convierte chatarra metálica, madera y plástico en materiales refinados, munición, equipo y armas modulares en las estaciones del tren."
+        },
+        {
+          "number": "4",
+          "title": "Disciplina en combate",
+          "description": "Usa fusiles, escopetas, pistolas y remates cuerpo a cuerpo con criterio y reserva la escasa munición para Revenants y élites."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Guías populares de Frostrail",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Mejoras del tren",
+        "Fabricación",
+        "Co-op",
+        "Demo",
+        "Acceso anticipado"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía para principiantes de Frostrail",
+          "description": "Calor, combustible, cadenas de fabricación, disciplina en combate y primera incursión al norte.",
+          "href": "/guide/frostrail-beginner-guide"
+        },
+        {
+          "badge": "Esencial",
+          "title": "Mejoras del tren de Frostrail",
+          "description": "Combustible, reparaciones, almacenamiento, vagones y defensas para el Motor Edén.",
+          "href": "/mechanics/frostrail-train-upgrades"
+        },
+        {
+          "badge": "Fabricación",
+          "title": "Guía de fabricación de Frostrail",
+          "description": "Estaciones, cadenas de refinado, munición, equipo y armas modulares.",
+          "href": "/mechanics/frostrail-crafting"
+        },
+        {
+          "badge": "Co-op",
+          "title": "Guía cooperativa de Frostrail",
+          "description": "Roles de ingeniero, intendente, saqueador y vanguardia para una tripulación.",
+          "href": "/modes/frostrail-co-op"
+        },
+        {
+          "badge": "Combate",
+          "title": "Guía de armas de Frostrail",
+          "description": "Pipe Rifle, Bolt-Action Rifle, pistolas, escopetas y disciplina de munición.",
+          "href": "/mechanics/frostrail-weapons"
+        },
+        {
+          "badge": "Lanzamiento",
+          "title": "Demo y lanzamiento de Frostrail",
+          "description": "Fechas de la demo, hitos de listas de deseos, playtests y planes de acceso anticipado.",
+          "href": "/release/frostrail-demo"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Frostrail?",
+      "paragraphs": [
+        "Frostrail es un FPS de supervivencia en un mundo helado del desarrollador FakeFish y la editora Shiro Unlimited. Eres uno de los Penitent Gardeners, portadores de misericordia que purgan Revenants y horrores eldritch de un imperio arruinado por el pacto del Emperador con el Vacío.",
+        "Tu tren blindado de vapor, el Motor Edén, es hogar, horno, taller y línea vital. Abastécelo, refuérzalo y añade vagones y estaciones de fabricación; después avanza hacia el norte por asentamientos abandonados, restos, mazmorras y bóvedas en busca de materiales, reliquias y armas. Juega solo o con una tripulación cooperativa."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "FakeFish"
+        },
+        {
+          "label": "Editor",
+          "value": "Shiro Unlimited"
+        },
+        {
+          "label": "Plataforma",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "Género",
+          "value": "FPS de supervivencia"
+        },
+        {
+          "label": "Listas de deseos",
+          "value": "500K+"
+        },
+        {
+          "label": "Demo",
+          "value": "19-26 oct. 2026"
+        },
+        {
+          "label": "Acceso anticipado",
+          "value": "Q4 2026"
+        }
+      ],
+      "cta": "Explora las guías de Frostrail"
+    },
+    "explore": {
+      "title": "Explora Frostrail Wiki",
+      "description": "Domina la frontera helada de Frostrail con rutas para principiantes, mejoras del Motor Edén, cadenas de fabricación, roles de armas, ubicaciones de enemigos, roles cooperativos y noticias de la demo.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para principiantes de Frostrail",
+          "description": "Aprende el bucle central de Frostrail: prepárate a bordo del Motor Edén, explora las salidas, saquea niveles congelados y vuelve con materiales antes de que gane el frío.",
+          "href": "/guide/frostrail-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Aviva el Motor Edén, revisa el calor de la cabina y llena el combustible antes de dejar el tren."
+            },
+            {
+              "label": "2",
+              "detail": "Explora primero las salidas del nivel y luego saquea con un límite de tiempo en lugar de entrar en pánico."
+            },
+            {
+              "label": "3",
+              "detail": "Refina chatarra metálica en metal de escoria y después en metal puro en la refinería del tren."
+            },
+            {
+              "label": "4",
+              "detail": "Reserva la escasa munición para Revenants y élites, y usa remates cuerpo a cuerpo contra enemigos heridos."
+            },
+            {
+              "label": "5",
+              "detail": "Vuelve al tren con combustible suficiente para el regreso y repara el equipo antes de la siguiente partida."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Mejoras del tren de Frostrail",
+          "description": "Mantén el Motor Edén abastecido, reparado y reforzado; después amplía almacenamiento, vagones y estaciones de fabricación mientras tu tripulación avanza al norte.",
+          "href": "/mechanics/frostrail-train-upgrades",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Motor",
+              "detail": "Abastece primero el Motor Edén; un tren detenido en pleno frío pone fin a la partida."
+            },
+            {
+              "label": "Reparaciones",
+              "detail": "Repara los sistemas dañados antes de comprar módulos nuevos para que las averías no se acumulen."
+            },
+            {
+              "label": "Almacenamiento",
+              "detail": "Añade capacidad de almacenamiento y transporte para que el botín valioso vuelva a casa en lugar de quedarse atrás."
+            },
+            {
+              "label": "Defensa",
+              "detail": "Refuerza paredes, escotillas y puertas para mantener a los invasores fuera del tren durante los eventos de defensa."
+            },
+            {
+              "label": "Vagones",
+              "detail": "Amplía el tren con vagones para mesas de trabajo, refinado e inventario compartido de la tripulación."
+            },
+            {
+              "label": "Embarcar",
+              "detail": "Usa la rampa de acceso mejorada y las ventanas despejadas para entrar y salir más rápido bajo presión."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Consejos de supervivencia de Frostrail",
+          "description": "Gestiona calor, ropa, mejoras de comida, munición y ventiscas mientras exploras lejos del calor del tren.",
+          "href": "/guide/frostrail-survival-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Calor",
+              "detail": "El calor procede del Motor Edén; nunca dejes que el fuego se apague antes de una larga incursión en interiores."
+            },
+            {
+              "label": "Ropa",
+              "detail": "Los conjuntos de aislamiento amplían la distancia que puedes recorrer desde la cabina antes de que muerda el frío."
+            },
+            {
+              "label": "Comida",
+              "detail": "La comida otorga mejoras en lugar de llenar una barra de hambre; come antes de los combates y las incursiones profundas."
+            },
+            {
+              "label": "Munición",
+              "detail": "La munición escasea; cuenta los enfrentamientos antes de disparar y remata a los enemigos heridos cuerpo a cuerpo."
+            },
+            {
+              "label": "Ventisca",
+              "detail": "Las ventiscas reducen la visibilidad y el movimiento; planifica rutas más cortas cuando cambie el tiempo."
+            },
+            {
+              "label": "Combustible",
+              "detail": "Las ramas, los troncos y el carbón alimentan el motor; nunca salgas de una ciudad con poca reserva."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Fabricación y recursos de Frostrail",
+          "description": "Refina chatarra metálica, madera, plástico y tela en las estaciones del tren y fabrica munición, equipo y armas modulares para la siguiente expedición.",
+          "href": "/mechanics/frostrail-crafting",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Chatarra",
+              "detail": "La chatarra metálica se refina en metal de escoria y después en metal puro para reparaciones y piezas de armas."
+            },
+            {
+              "label": "Madera",
+              "detail": "La madera sigue una cadena de refinado de varios pasos y también alimenta el Motor Edén como troncos y ramas."
+            },
+            {
+              "label": "Plástico",
+              "detail": "El plástico sigue una ruta de refinado similar y sirve para equipo y construcción de estaciones."
+            },
+            {
+              "label": "Tela",
+              "detail": "La tela se convierte en ropa que mitiga el frío para expediciones más allá de la cabina."
+            },
+            {
+              "label": "Combustible",
+              "detail": "Ramas, troncos y carbón son insumos de combustible; fabricar y viajar compiten por la misma reserva."
+            },
+            {
+              "label": "Mesa",
+              "detail": "Las mesas de fabricación, refinerías y la Estación de Ensamblaje viajan con el tren."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Armas y combate de Frostrail",
+          "description": "Compara los roles de las armas de Frostrail, desde el Bolt-Action Rifle modular y las escopetas de corto alcance hasta las pistolas y los remates cuerpo a cuerpo.",
+          "href": "/mechanics/frostrail-weapons",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Bolt-Action Rifle: plataforma modular ensamblada en la Estación de Ensamblaje para disparos deliberados a media distancia."
+            },
+            {
+              "label": "A",
+              "detail": "Escopeta: ráfaga de corto alcance contra Revenants humanoides; haz que cada cartucho cuente."
+            },
+            {
+              "label": "B",
+              "detail": "Fusil: precisión a media distancia para eliminar amenazas antes de que alcancen a la tripulación."
+            },
+            {
+              "label": "C",
+              "detail": "Pistola: disparos de respaldo baratos y limpieza de Revenants ligeros cuando la munición escasea."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guía cooperativa de Frostrail",
+          "description": "Reparte las tareas de ingeniero, intendente, saqueador y vanguardia para que una tripulación de Frostrail mantenga el tren caliente y las expediciones abastecidas.",
+          "href": "/modes/frostrail-co-op",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Acordad los roles antes de partir: ingeniero, intendente, saqueador y vanguardia."
+            },
+            {
+              "label": "2",
+              "detail": "Mantén a un jugador a bordo para alimentar el Motor Edén y vigilar el calor de la cabina mientras los demás saquean."
+            },
+            {
+              "label": "3",
+              "detail": "Comparte las tareas de almacenamiento y fabricación para que munición, comida y materiales de reparación no falten."
+            },
+            {
+              "label": "4",
+              "detail": "Rota al saqueador y ordenad la retirada en equipo en lugar de dejar que un jugador se extralimite."
+            },
+            {
+              "label": "5",
+              "detail": "Juega el mismo bucle de supervivencia en solitario o con amigos; el co-op añade ritmo y riesgo compartido."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Enemigos y ubicaciones de Frostrail",
+          "description": "Localiza Revenants, lobos, asentamientos, restos, mazmorras, bóvedas y búnkeres a lo largo de la ruta helada hacia el norte.",
+          "href": "/mechanics/frostrail-map",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Revenants",
+              "detail": "Los enemigos humanoides y las élites protegen interiores y castigan el uso descuidado de la munición."
+            },
+            {
+              "label": "Lobos",
+              "detail": "Las criaturas hostiles presionan las expediciones lejos del tren y persiguen a los rezagados."
+            },
+            {
+              "label": "Pueblos",
+              "detail": "Los asentamientos abandonados ofrecen suministros, equipo y narrativa ambiental."
+            },
+            {
+              "label": "Restos",
+              "detail": "El salvamento junto a las vías es una parada de bajo riesgo para conseguir chatarra y materiales básicos."
+            },
+            {
+              "label": "Mazmorras",
+              "detail": "Las mazmorras modulares cambian de diseño entre partidas y entregan reliquias para el tren."
+            },
+            {
+              "label": "Bóvedas",
+              "detail": "Las bóvedas subterráneas son interiores de alto riesgo con armas poderosas como recompensa."
+            },
+            {
+              "label": "Búnkeres",
+              "detail": "Los búnkeres abandonados ofrecen exploración cerrada y combates ajustados contra Revenants."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Novedades de lanzamiento y demo de Frostrail",
+          "description": "Sigue la ventana de la demo de Frostrail, los hitos de listas de deseos, los playtests, el tráiler y el lanzamiento previsto en acceso anticipado.",
+          "href": "/release/frostrail-demo",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Demo",
+              "detail": "La demo de Frostrail estará disponible en Steam del 19 al 26 de octubre de 2026."
+            },
+            {
+              "label": "Lanzamiento",
+              "detail": "El acceso anticipado está previsto para Q4 2026 en Steam."
+            },
+            {
+              "label": "Listas de deseos",
+              "detail": "Frostrail superó las 500.000 listas de deseos en Steam antes del acceso anticipado."
+            },
+            {
+              "label": "Playtest",
+              "detail": "Más de 70.000 jugadores participaron en la beta cerrada y dieron forma al equilibrio del juego."
+            },
+            {
+              "label": "Tráiler",
+              "detail": "El tráiler oficial de gameplay está disponible en la página de la tienda de Steam."
+            },
+            {
+              "label": "Noticias",
+              "detail": "Los anuncios de Steam cubren las ventanas de demo, los playtests y las novedades del desarrollo."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre Frostrail",
+      "description": "Respuestas a preguntas habituales sobre la supervivencia, el co-op, la fabricación, las armas, el Motor Edén y los planes de lanzamiento de Frostrail.",
+      "items": [
+        {
+          "question": "¿Qué es Frostrail?",
+          "answer": "Frostrail es un FPS de supervivencia en un mundo helado de FakeFish y Shiro Unlimited. Eres un Penitent Gardener, saqueas un imperio en ruinas, luchas contra Revenants y horrores eldritch y mantienes vivo un tren blindado de vapor llamado Motor Edén."
+        },
+        {
+          "question": "¿Se puede jugar a Frostrail en solitario o en co-op?",
+          "answer": "Sí. Steam incluye tanto un jugador como co-op en línea, y las preguntas frecuentes oficiales confirman tripulaciones de uno a cuatro jugadores. El co-op reparte el combustible, la fabricación, el saqueo y el combate entre la tripulación."
+        },
+        {
+          "question": "¿Cómo se mantiene el calor en Frostrail?",
+          "answer": "El calor procede del Motor Edén. Mantenlo alimentado con ramas, troncos y carbón, lleva conjuntos de aislamiento cuando estés lejos de la cabina y regresa antes de que se agote la reserva de combustible."
+        },
+        {
+          "question": "¿Cómo funciona la fabricación en Frostrail?",
+          "answer": "La fabricación se realiza en mesas, refinerías y la Estación de Ensamblaje del tren. La chatarra metálica se convierte en metal de escoria y luego en metal puro, mientras la madera y el plástico siguen cadenas de refinado similares para equipo, reparaciones y armas modulares."
+        },
+        {
+          "question": "¿Qué armas hay en Frostrail?",
+          "answer": "Frostrail usa armas de fuego inspiradas en la Primera Guerra Mundial, como el Pipe Rifle, el Bolt-Action Rifle modular, pistolas, escopetas, fusiles y ametralladoras, con ataques cuerpo a cuerpo como respaldo. La munición escasea, así que la disciplina al disparar es esencial."
+        },
+        {
+          "question": "¿Cuándo se puede jugar a Frostrail?",
+          "answer": "La demo de Frostrail está disponible en Steam del 19 al 26 de octubre de 2026. El acceso anticipado está previsto para Q4 2026, y añadir el juego a tu lista de deseos es la forma fiable de enterarte de futuros playtests."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para sobrevivir al frío?",
+      "description": "Domina el páramo helado de Frostrail con consejos de supervivencia, mejoras del tren, guías de fabricación, tácticas cooperativas, detalles de la demo y novedades del lanzamiento.",
+      "primary": "Leer la guía para principiantes de Frostrail",
+      "secondary": "Añadir a deseados en Steam"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegación del wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Índice",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Contenido oficial",
+    "home": "Inicio",
+    "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!"
+  },
+  "footer": {
+    "aboutTitle": "Frostrail Wiki",
+    "about": "Frostrail Wiki es un centro de guías independiente creado por fans que cubre mecánicas de supervivencia, mejoras del tren, fabricación, armas, enemigos, tácticas cooperativas y conocimientos esenciales del juego tanto para jugadores nuevos como veteranos.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 Frostrail Wiki. Sin afiliación con FakeFish ni Shiro Unlimited.",
+    "description": "FPS de supervivencia en un mundo helado con co-op, fabricación y un tren de vapor. Llegará al acceso anticipado de Steam en Q4 2026.",
+    "playGame": "Añadir a deseados en Steam",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "YouTube oficial",
+    "twitter": "X (Twitter)",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "vvBuilder": "Guías de mejoras del tren",
+    "beginnerGuide": "Guía para principiantes",
+    "raceGuides": "Guías de supervivencia",
+    "bossGuides": "Guías de enemigos",
+    "buildGuide": "Mejoras del tren",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos del servicio"
+  },
+  "guide": {
+    "overviewTitle": "Guía de Frostrail: consejos para principiantes, supervivencia y construcción de bases",
+    "overviewDescription": "Empieza tu partida con las guías para principiantes de Frostrail sobre fundamentos de supervivencia, construcción de la base del tren, guardado, cómo unirte a amigos, acceso a playtests y consejos prácticos de juego."
+  },
+  "release": {
+    "overviewTitle": "Fecha de lanzamiento, demo y playtests de Frostrail",
+    "overviewDescription": "Sigue la fecha de lanzamiento de Frostrail, los planes de acceso anticipado, la ventana de la demo en Steam, las fechas de los playtests, los tráilers y las últimas novedades del desarrollo."
+  },
+  "platforms": {
+    "overviewTitle": "Plataformas, precio y requisitos de Frostrail",
+    "overviewDescription": "Comprueba dónde está disponible Frostrail, incluidos los detalles de Steam y PC, el precio, las opciones de descarga, el estado de la demo gratuita y los requisitos del sistema."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de Frostrail: fabricación, armas y mejoras del tren",
+    "overviewDescription": "Aprende cómo funcionan las mecánicas de supervivencia de Frostrail, desde la fabricación y la construcción de bases hasta las armas, el mapa del mundo y las mejoras del tren Motor Edén."
+  },
+  "modes": {
+    "overviewTitle": "Modos multijugador y cooperativos de Frostrail",
+    "overviewDescription": "Descubre cómo funciona el multijugador de Frostrail, incluido el tamaño de la tripulación cooperativa, cómo unirte a amigos y cuántos jugadores pueden compartir una partida."
+  },
+  "community": {
+    "overviewTitle": "Comunidad, Discord y novedades de los desarrolladores de Frostrail",
+    "overviewDescription": "Sigue la comunidad de Frostrail mediante el Discord oficial, las conversaciones en Reddit, las novedades de los desarrolladores y las reseñas de jugadores."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La guía que buscas puede haberse movido o aún no estar disponible.",
+    "cta": "Explorar guías de Frostrail"
+  }
+}

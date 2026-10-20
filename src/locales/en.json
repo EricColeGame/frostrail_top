@@ -513,5 +513,10 @@
   "community": {
     "overviewTitle": "Frostrail Community, Discord & Developer Updates",
     "overviewDescription": "Follow the Frostrail community through the official Discord, Reddit discussions, developer updates, and player reviews."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The guide you are looking for may have moved or has not been added yet.",
+    "cta": "Browse Frostrail Guides"
   }
 }
