@@ -1,3 +1,5 @@
+import { routing } from "@/i18n/routing";
+
 export interface SiteConfig {
   name: string;
   shortName: string;
@@ -37,6 +39,6 @@ export const siteConfig: SiteConfig = {
     instagram: "https://www.instagram.com/frostrail_game/",
     facebook: "https://www.facebook.com/profile.php?id=61575017602481",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
-  defaultLocale: "en",
+  locales: routing.locales,
+  defaultLocale: routing.defaultLocale,
 };
