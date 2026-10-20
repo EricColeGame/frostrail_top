@@ -19,18 +19,18 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Frostrail Wiki",
+  shortName: "Frostrail",
+  logoText: "F",
+  tagline: "Frozen World Survival Guides, Train Upgrades & Crafting",
+  description: "Explore Frostrail with survival guides, train upgrades, crafting tips, weapons, enemy strategies, co-op advice, demo information, and release updates.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://frostrail.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://frostrail.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://store.steampowered.com/app/3517740/Frostrail/",
+  heroVideoId: "puxIrsBxYV0", // Frostrail official gameplay trailer (Shiro Games)
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    youtube: "https://www.youtube.com/@Shiro_Games",
+    twitter: "https://x.com/FrostRail_game",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
