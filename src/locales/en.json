@@ -9,7 +9,13 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "release": "Release",
+    "platforms": "Platforms",
+    "mechanics": "Mechanics",
+    "modes": "Modes",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -445,7 +451,6 @@
       "secondary": "Wishlist on Steam"
     }
   },
-  "bosses": {},
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -484,5 +489,29 @@
     "buildGuide": "Train Upgrades",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "guide": {
+    "overviewTitle": "Frostrail Guide: Beginner Tips, Survival & Base Building",
+    "overviewDescription": "Start your run with Frostrail beginner guides covering survival basics, train base building, saving, joining friends, playtest access, and practical gameplay tips."
+  },
+  "release": {
+    "overviewTitle": "Frostrail Release Date, Demo & Playtest News",
+    "overviewDescription": "Track the Frostrail release date, Early Access plans, Steam demo window, playtest dates, trailers, and the latest development news."
+  },
+  "platforms": {
+    "overviewTitle": "Frostrail Platforms, Price & System Requirements",
+    "overviewDescription": "Check where Frostrail is available, including Steam and PC details, price, download options, free demo status, and system requirements."
+  },
+  "mechanics": {
+    "overviewTitle": "Frostrail Mechanics: Crafting, Weapons & Train Upgrades",
+    "overviewDescription": "Learn how Frostrail survival mechanics work, from crafting and base building to weapons, the world map, and Eden Engine train upgrades."
+  },
+  "modes": {
+    "overviewTitle": "Frostrail Multiplayer & Co-op Modes",
+    "overviewDescription": "Find out how Frostrail multiplayer works, including co-op crew size, joining friends, and how many players can share a run."
+  },
+  "community": {
+    "overviewTitle": "Frostrail Community, Discord & Developer Updates",
+    "overviewDescription": "Follow the Frostrail community through the official Discord, Reddit discussions, developer updates, and player reviews."
   }
 }
