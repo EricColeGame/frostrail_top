@@ -1,10 +1,10 @@
 {
   "site": {
-    "name": "My Seafood Stand Wiki",
-    "shortName": "My Seafood Stand",
-    "tagline": "Complete Guides, Codes, Recipes & Tier Lists",
-    "description": "Your ultimate guide to My Seafood Stand on Roblox! Explore active codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-    "legalNotice": "Non-official fan wiki. Made by players, for players."
+    "name": "Frostrail Wiki",
+    "shortName": "Frostrail",
+    "tagline": "Frozen World Survival Guides, Train Upgrades & Crafting",
+    "description": "Explore Frostrail with survival guides, train upgrades, crafting tips, weapons, enemy strategies, co-op advice, demo information, and release updates.",
+    "legalNotice": "Independent fan wiki for Frostrail. Not affiliated with FakeFish or Shiro Unlimited."
   },
   "nav": {
     "races": "Races",
@@ -30,19 +30,19 @@
       "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
-      "title": "My Seafood Stand",
-      "description": "Master your restaurant in My Seafood Stand on Roblox. Access all active codes, complete fish & recipe catalog, optimal upgrades, and pro money-making strategies.",
+      "eyebrow": "Frozen World Survival FPS",
+      "title": "Frostrail Wiki",
+      "description": "Explore the frozen wasteland of Frostrail with survival guides, train upgrades, crafting tips, weapons, enemy strategies, co-op advice, demo information, and release updates.",
       "stats": [
-        "All Codes",
-        "All Fish & Recipes",
-        "Upgrade Guides",
-        "Fast Cash Tips"
+        "500K+ Steam Wishlists",
+        "4 Players Co-op",
+        "Demo Available",
+        "Q4 2026 Early Access"
       ],
-      "primaryCta": "Beginner Guide",
-      "secondaryCta": "Seafood Tier List",
-      "tertiaryCta": "Active Codes",
-      "videoLabel": "Official media"
+      "primaryCta": "Wishlist on Steam",
+      "secondaryCta": "Beginner Guide",
+      "tertiaryCta": "Join Official Discord",
+      "videoLabel": "Official Gameplay Trailer"
     },
     "updates": {
       "title": "Latest Updates",
@@ -342,10 +342,10 @@
       ]
     },
     "finalCta": {
-      "title": "Ready to Master My Seafood Stand?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
+      "title": "Ready to Survive the Frost?",
+      "description": "Master Frostrail's frozen wasteland with survival tips, train upgrades, crafting guides, co-op tactics, demo details, and release updates.",
       "primary": "Read the Beginner Guide",
-      "secondary": "Play on Roblox"
+      "secondary": "Wishlist on Steam"
     }
   },
   "bosses": {
@@ -379,21 +379,24 @@
     "noGuidesAvailable": "No guides available yet. Check back soon!"
   },
   "footer": {
-    "aboutTitle": "My Seafood Stand Wiki",
-    "about": "My Seafood Stand Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "aboutTitle": "Frostrail Wiki",
+    "about": "Frostrail Wiki is an independent fan-built guide hub covering survival mechanics, train upgrades, crafting, weapons, enemies, co-op tactics, and essential game knowledge for new and veteran players alike.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 My Seafood Stand Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play My Seafood Stand",
+    "copyright": "2026 Frostrail Wiki. Not affiliated with FakeFish or Shiro Unlimited.",
+    "description": "Frozen-world survival FPS with co-op, crafting, and a steam-powered train. Coming to Steam Early Access in Q4 2026.",
+    "playGame": "Wishlist on Steam",
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",
-    "vvBuilder": "VV Builder (Skill Planner)",
+    "twitter": "X (Twitter)",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "vvBuilder": "Train Upgrade Guides",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "raceGuides": "Survival Guides",
+    "bossGuides": "Enemy Guides",
+    "buildGuide": "Train Upgrades",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

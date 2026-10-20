@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
   return {
     metadataBase: new URL(siteUrl),
-    title: { default: "Frostrail Wiki - Survival Guide, Train & Crafting", template: "%s" },
+    title: { default: "Frostrail Wiki", template: "%s" },
     description: "Explore Frostrail Wiki for survival tips, train upgrades, crafting, weapons, enemies, co-op guides, demo details, release news, and beginner strategies.",
     keywords: ["Frostrail", "Frostrail Wiki", "Frostrail guide", "Frostrail train upgrades", "Frostrail crafting", "Frostrail co-op"],
     manifest: "/manifest.json",
@@ -37,8 +37,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       apple: [{ url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" }],
     },
     appleWebApp: { capable: true, title: "Frostrail Wiki", statusBarStyle: "black-translucent" },
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
-    twitter: { card: "summary_large_image", images: [image] },
+    openGraph: { type: "website", locale, url: `${siteUrl}/${locale}`, siteName: siteConfig.name, images: [{ url: image, width: 1920, height: 620, alt: "Frostrail Wiki" }] },
+    twitter: { card: "summary_large_image", images: [{ url: image, alt: "Frostrail Wiki" }] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }
@@ -48,6 +48,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   setRequestLocale(locale);
   if (!hasLocale(routing.locales, locale)) notFound();
   const messages = await getMessages({ locale });
+  const socialProfiles = [siteConfig.social?.discord, siteConfig.social?.youtube, siteConfig.social?.twitter, siteConfig.social?.instagram, siteConfig.social?.facebook].filter((url): url is string => Boolean(url));
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -55,6 +56,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     url: siteUrl,
     logo: `${siteUrl}/android-chrome-512x512.png`,
     image: `${siteUrl}/images/hero.webp`,
+    sameAs: socialProfiles,
   };
 
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
