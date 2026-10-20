@@ -13,8 +13,8 @@
   },
   "home": {
     "meta": {
-      "title": "My Seafood Stand Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Frostrail Wiki - Survival Guide, Train Upgrades & Crafting",
+      "description": "Frostrail survival guide covering heat, the Eden Engine train, crafting, weapons, Revenants, co-op tactics, demo details, and Early Access news."
     },
     "hero": {
       "eyebrow": "Frozen World Survival FPS",
@@ -32,306 +32,416 @@
       "videoLabel": "Official Gameplay Trailer"
     },
     "updates": {
-      "title": "Latest Updates",
+      "title": "Latest Frostrail Updates",
       "browse": "Browse All Guides",
       "viewAll": "View All"
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Frostrail Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the Frostrail core loop: stoke the Eden Engine, scout exits, refine scrap, and return before the cold drains your fuel."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Train Upgrades",
+          "description": "Prioritize fuel, repairs, storage, and defenses so your locomotive stays warm and moving through the frozen north."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Crafting Basics",
+          "description": "Turn metal scraps, wood, and plastic into refined materials, ammunition, gear, and modular weapons at onboard stations."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Combat Discipline",
+          "description": "Use rifles, shotguns, pistols, and melee finishers wisely while saving scarce ammunition for Revenants and elites."
         }
       ]
     },
     "popular": {
       "eyebrow": "Popular Pages",
-      "title": "Trending Now",
+      "title": "Trending Frostrail Guides",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Train Upgrades",
+        "Crafting",
+        "Co-op",
+        "Demo",
+        "Early Access"
       ],
       "cards": [
         {
           "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "title": "Frostrail Beginner Guide",
+          "description": "Heat, fuel, crafting chains, combat discipline, and the first run north.",
+          "href": "/guide/frostrail-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Core",
+          "title": "Frostrail Train Upgrades",
+          "description": "Fuel, repairs, storage, carriages, and defenses for the Eden Engine.",
+          "href": "/mechanics/frostrail-train-upgrades"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Crafting",
+          "title": "Frostrail Crafting Guide",
+          "description": "Stations, refinement chains, ammunition, gear, and modular weapons.",
+          "href": "/mechanics/frostrail-crafting"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Co-op",
+          "title": "Frostrail Co-op Guide",
+          "description": "Engineer, Quartermaster, Scavenger, and Vanguard roles for a crew.",
+          "href": "/modes/frostrail-co-op"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Combat",
+          "title": "Frostrail Weapons Guide",
+          "description": "Pipe Rifle, Bolt-Action Rifle, pistols, shotguns, and ammo discipline.",
+          "href": "/mechanics/frostrail-weapons"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Release",
+          "title": "Frostrail Demo and Release",
+          "description": "Demo dates, wishlist milestones, playtests, and Early Access plans.",
+          "href": "/release/frostrail-demo"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is Frostrail?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Frostrail is a frozen-world survival FPS from developer FakeFish and publisher Shiro Unlimited. You play as one of the Penitent Gardeners, mercy-givers who purge Revenants and eldritch horrors from an empire ruined by the Emperor's pact with the Void.",
+        "Your armored steam train, the Eden Engine, is home, furnace, workshop, and lifeline. Fuel it, reinforce it, and add carriages and crafting stations, then push north through abandoned settlements, wreckage, dungeons, and vaults for materials, Relics, and weapons. Play solo or with a co-op crew."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "FakeFish"
+        },
+        {
+          "label": "Publisher",
+          "value": "Shiro Unlimited"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC (Steam)"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Survival FPS"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Wishlists",
+          "value": "500K+"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Demo",
+          "value": "Oct 19-26, 2026"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Early Access",
+          "value": "Q4 2026"
         }
       ],
-      "cta": "Explore All Guides"
+      "cta": "Explore Frostrail Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore Frostrail Wiki",
+      "description": "Master Frostrail's frozen frontier with beginner routes, Eden Engine upgrades, crafting chains, weapon roles, enemy locations, co-op roles, and demo news.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Frostrail Beginner Guide",
+          "description": "Learn the core Frostrail loop: prepare aboard the Eden Engine, scout exits, scavenge frozen levels, and return with materials before the cold wins.",
+          "href": "/guide/frostrail-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Stoke the Eden Engine, check the cab heat, and top off fuel before leaving the train."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Scout the level exits first, then loot with a time budget instead of panic."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Refine metal scraps into slag metal and then pure metal at the onboard refinery."
+            },
+            {
+              "label": "4",
+              "detail": "Save scarce ammunition for Revenants and elites, and use melee finishers on wounded enemies."
+            },
+            {
+              "label": "5",
+              "detail": "Return to the train with enough fuel for the trip back and repair gear before the next run."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Frostrail Train Upgrades",
+          "description": "Keep the Eden Engine fueled, repaired, and reinforced, then expand storage, carriages, and crafting stations as your crew pushes north.",
+          "href": "/mechanics/frostrail-train-upgrades",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Engine",
+              "detail": "Fuel the Eden Engine first; a stalled train in open cold ends the run."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Repairs",
+              "detail": "Repair damaged systems before buying new modules so breakdowns do not compound."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Storage",
+              "detail": "Add storage and hauling capacity so valuable loot comes home instead of being left behind."
+            },
+            {
+              "label": "Defense",
+              "detail": "Reinforce walls, hatches, and doors to keep boarders off the train during defense events."
+            },
+            {
+              "label": "Carriages",
+              "detail": "Expand with carriages for workstations, refining, and shared crew inventory."
+            },
+            {
+              "label": "Boarding",
+              "detail": "Use the improved access ramp and clear windows to board and exit faster under pressure."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
-          "displayType": "tier-grid",
+          "name": "Frostrail Survival Tips",
+          "description": "Manage heat, clothing, food buffs, ammunition, and blizzards while exploring far from the train's warmth.",
+          "href": "/guide/frostrail-survival-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Heat",
+              "detail": "Warmth comes from the Eden Engine; never let the fire die before a long interior crawl."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Clothing",
+              "detail": "Insulation sets extend how far you can travel from the cab before the cold bites."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Food",
+              "detail": "Food grants buffs rather than filling a hunger meter, so eat before fights and deep runs."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Ammo",
+              "detail": "Ammunition is scarce; count engagements before you fire and finish wounded enemies in melee."
+            },
+            {
+              "label": "Blizzard",
+              "detail": "Blizzards cut visibility and movement, so plan shorter routes when the weather turns."
+            },
+            {
+              "label": "Fuel",
+              "detail": "Branches, logs, and charcoal feed the engine; never leave a town with a low reserve."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Frostrail Crafting and Resources",
+          "description": "Refine metal scraps, wood, plastic, and cloth at onboard stations, then craft ammunition, gear, and modular weapons for the next expedition.",
+          "href": "/mechanics/frostrail-crafting",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Scrap",
+              "detail": "Metal scraps refine into slag metal, then pure metal for repairs and weapon parts."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Wood",
+              "detail": "Wood follows a multi-step refinement chain and also feeds the Eden Engine as logs and branches."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Plastic",
+              "detail": "Plastic follows a similar refinement path and supports gear and station construction."
+            },
+            {
+              "label": "Cloth",
+              "detail": "Cloth becomes cold-mitigation clothing for expeditions beyond the cab."
+            },
+            {
+              "label": "Fuel",
+              "detail": "Branches, logs, and charcoal are fuel inputs, so crafting and travel compete for the same pile."
+            },
+            {
+              "label": "Bench",
+              "detail": "Crafting benches, refineries, and the Assembly Station travel with the train."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Frostrail Weapons and Combat",
+          "description": "Compare Frostrail weapon roles, from the modular Bolt-Action Rifle and close-range shotguns to pistols and melee finishers.",
+          "href": "/mechanics/frostrail-weapons",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "S",
+              "detail": "Bolt-Action Rifle - modular platform assembled at the Assembly Station for deliberate mid-range shots."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "A",
+              "detail": "Shotgun - close-range burst against humanoid Revenants; make every shell count."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "B",
+              "detail": "Rifle - mid-range precision to pick threats before they close on the crew."
+            },
+            {
+              "label": "C",
+              "detail": "Pistol - cheap backup shots and light Revenant cleanup when ammo is tight."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Frostrail Co-op Guide",
+          "description": "Split Engineer, Quartermaster, Scavenger, and Vanguard duties so a Frostrail crew keeps the train warm and the expeditions supplied.",
+          "href": "/modes/frostrail-co-op",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "1",
+              "detail": "Agree on roles before departure: Engineer, Quartermaster, Scavenger, and Vanguard."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "2",
+              "detail": "Keep one player aboard to feed the Eden Engine and watch the cab heat while others loot."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "3",
+              "detail": "Share storage and crafting duties so ammunition, food, and repair materials stay stocked."
+            },
+            {
+              "label": "4",
+              "detail": "Rotate the Scavenger and call retreats together instead of letting one player overextend."
+            },
+            {
+              "label": "5",
+              "detail": "Play the same survival loop solo or with friends; co-op adds tempo and shared risk."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Frostrail Enemies and Locations",
+          "description": "Track Revenants, wolves, settlements, wreckage, dungeons, vaults, and bunkers across the frozen route north.",
+          "href": "/mechanics/frostrail-map",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Revenants",
+              "detail": "Humanoid enemies and elites guard interiors and punish careless ammo use."
+            },
+            {
+              "label": "Wolves",
+              "detail": "Hostile creatures pressure expeditions away from the train and chase stragglers."
+            },
+            {
+              "label": "Towns",
+              "detail": "Abandoned settlements provide supplies, equipment, and environmental storytelling."
+            },
+            {
+              "label": "Wreckage",
+              "detail": "Salvage beside the rails is a low-risk stop for scrap and basic materials."
+            },
+            {
+              "label": "Dungeons",
+              "detail": "Modular dungeons shift layout between runs and pay out Relics for the train."
+            },
+            {
+              "label": "Vaults",
+              "detail": "Subterranean vaults are high-risk interiors with powerful weapons as rewards."
+            },
+            {
+              "label": "Bunkers",
+              "detail": "Derelict bunkers offer enclosed exploration and tight combat against Revenants."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Frostrail Release and Demo Updates",
+          "description": "Follow the Frostrail demo window, wishlist milestones, playtests, trailer, and planned Early Access launch.",
+          "href": "/release/frostrail-demo",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Demo",
+              "detail": "The Frostrail demo runs on Steam from October 19 to October 26, 2026."
+            },
+            {
+              "label": "Launch",
+              "detail": "Early Access is planned for Q4 2026 on Steam."
+            },
+            {
+              "label": "Wishlists",
+              "detail": "Frostrail passed 500,000 Steam wishlists before Early Access."
+            },
+            {
+              "label": "Playtest",
+              "detail": "More than 70,000 players joined the closed beta and shaped balance feedback."
+            },
+            {
+              "label": "Trailer",
+              "detail": "The official gameplay trailer is available on the Steam store page."
+            },
+            {
+              "label": "News",
+              "detail": "Steam announcements cover demo windows, playtests, and development updates."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "title": "Frostrail FAQ",
+      "description": "Answers to common questions about Frostrail survival, co-op, crafting, weapons, the Eden Engine, and release plans.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Frostrail?",
+          "answer": "Frostrail is a frozen-world survival FPS from FakeFish and Shiro Unlimited. You play as a Penitent Gardener, scavenging a ruined empire, fighting Revenants and eldritch horrors, and keeping an armored steam train called the Eden Engine alive."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Can you play Frostrail solo or in co-op?",
+          "answer": "Yes. Steam lists both single-player and online co-op, and the official FAQ confirms crews of one to four players. Co-op splits fuel, crafting, scavenging, and combat duties across the crew."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How do you stay warm in Frostrail?",
+          "answer": "Heat comes from the Eden Engine. Keep it fueled with branches, logs, and charcoal, wear insulation sets away from the cab, and return before your fuel reserve runs low."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How does crafting work in Frostrail?",
+          "answer": "Crafting runs through train-mounted benches, refineries, and the Assembly Station. Metal scraps become slag metal and then pure metal, while wood and plastic follow similar refinement chains for gear, repairs, and modular weapons."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "What weapons are in Frostrail?",
+          "answer": "Frostrail uses WWI-influenced firearms, including the Pipe Rifle, the modular Bolt-Action Rifle, pistols, shotguns, rifles, and machine guns, with melee attacks as a backup. Ammunition is scarce, so shot discipline matters."
+        },
+        {
+          "question": "When can you play Frostrail?",
+          "answer": "The Frostrail demo runs on Steam from October 19 to October 26, 2026. Early Access is planned for Q4 2026, and wishlisting the game is the reliable way to hear about future playtests."
         }
       ]
     },
     "finalCta": {
       "title": "Ready to Survive the Frost?",
       "description": "Master Frostrail's frozen wasteland with survival tips, train upgrades, crafting guides, co-op tactics, demo details, and release updates.",
-      "primary": "Read the Beginner Guide",
+      "primary": "Read the Frostrail Beginner Guide",
       "secondary": "Wishlist on Steam"
     }
   },
